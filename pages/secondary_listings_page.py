@@ -1,4 +1,7 @@
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.wait import WebDriverWait
+from webdriver_manager.core import driver
+
 from pages.base_page import BasePage
 
 
@@ -6,8 +9,14 @@ class SecondaryListingsPage(BasePage):
 
 
     VERIFY_WANT_TO_BUY_FILTER = (
-    By.XPATH, '//*[@id="w-node-d154af0f-0b87-f248-08ed-6776e36f551f-7f66df43"]/div[1]/div[2]/div[1]/div')
+    By.XPATH, "//div[@wized='saleTagMLS' and @style='color: rgb(255, 61, 0);' and @w-el-text='For sale' and @w-el-style-color='rgb(120, 162, 0)' and text()='Want to buy']"
+)
 
-    def apply_filter(self):
+    def __init__(self, driver):
+        super().__init__(driver)
+        self.wait = WebDriverWait(driver, 75)
+
+    def verify_want_to_buy_filter(self):
         self.click(*self.VERIFY_WANT_TO_BUY_FILTER)
+
 

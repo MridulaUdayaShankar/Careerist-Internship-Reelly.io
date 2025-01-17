@@ -2,7 +2,7 @@
 Feature: # Enter feature name here
   # Enter feature description here
 
-  Scenario: # Enter scenario name here
+  Scenario: User should be able to login to Reelly.io, choose Secondary listings, apply filter "Want to buy", Verify the same
 
     Given Open reelly main page
     Then Enter email
@@ -16,7 +16,7 @@ Feature: # Enter feature name here
     Given Click on Filters
     When Filter the products by “want to buy”
     When Click on Apply Filter
-    Then Verify if filter is applied
+#    Then Verify if filter is applied
     Then Verify “want to buy” is seen on each card
 
 

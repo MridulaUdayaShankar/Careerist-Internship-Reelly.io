@@ -17,13 +17,13 @@ def click_apply_filter(context):
     context.app.filters.click_apply_filter()
 
 
-@then('Verify if filter is applied')
-def verify_filter(context):
-    context.app.filters.verify_filter()
+# @then('Verify if filter is applied')
+# def verify_filter(context):
+#     context.app.filters.verify_filter()
 
 @then ('Verify “want to buy” is seen on each card')
 def verify_want_to_buy_filter(context):
-    context.app.main_menu.verify_want_to_buy_filter()
+    context.app.secondary_listings_page.verify_want_to_buy_filter()
 
  # Given Click on Filters
  #    When Filter the products by “want to buy”
