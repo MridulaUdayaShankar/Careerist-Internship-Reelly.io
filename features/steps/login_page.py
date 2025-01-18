@@ -6,7 +6,6 @@ from time import sleep
 # def open_main_page(context):
 #     context.app.login.open_main_page()
 
-
 @then('Enter email')
 def enter_email(context):
     context.app.login_page.enter_email()

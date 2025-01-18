@@ -1,3 +1,5 @@
+from time import sleep
+
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from webdriver_manager.core import driver
@@ -17,6 +19,7 @@ class SecondaryListingsPage(BasePage):
         self.wait = WebDriverWait(driver, 75)
 
     def verify_want_to_buy_filter(self):
+        sleep(2)
         self.click(*self.VERIFY_WANT_TO_BUY_FILTER)
 
 

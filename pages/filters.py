@@ -1,3 +1,5 @@
+from time import sleep
+
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from webdriver_manager.core import driver
@@ -24,13 +26,16 @@ class Filters(BasePage):
 
 
     def click_filters(self):
+        sleep(2)
         self.click(*self.FILTER_BTN)
         # self.wait = WebDriverWait(driver, 25)
 
     def filter_by(self):
+        sleep(2)
         self.click(*self.WANT_TO_BUY_FILTER)
         # self.wait = WebDriverWait(driver, 25)
 
     def click_apply_filter(self):
+        sleep(2)
         self.click(*self.APPLY_FILTER_BTN)
         # self.wait = WebDriverWait(driver, 70)
