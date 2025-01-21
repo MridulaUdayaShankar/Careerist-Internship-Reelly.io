@@ -14,8 +14,9 @@ from selenium.webdriver.chrome.options import Options
 # from webdriver_manager.firefox import GeckoDriverManager
 
 
-def browser_init(context):
+def browser_init(context, scenario_name):
     """
+    :param scenario_name:
     :param context: Behave context
     """
     #Google Chrome
@@ -31,13 +32,30 @@ def browser_init(context):
     # context.driver = webdriver.Firefox(service=service, options=firefox_options)
 
     ## HEADLESS MODE ####
-    options = webdriver.ChromeOptions()
-    options.add_argument('headless')
-    service = Service(ChromeDriverManager().install())
-    context.driver = webdriver.Chrome(
-        options=options,
-        service=service
-    )
+    # options = webdriver.ChromeOptions()
+    # options.add_argument('headless')
+    # service = Service(ChromeDriverManager().install())
+    # context.driver = webdriver.Chrome(
+    #     options=options,
+    #     service=service
+    # )
+
+    ### BROWSERSTACK ###
+    # Register for BrowserStack, then grab it from https://www.browserstack.com/accounts/settings
+    bs_user = 'mridulaudayashan_SE249K'
+    bs_key = '6dNpk8ycqcGC4nFQaozC'
+    url = f'https://{bs_user}:{bs_key}@hub-cloud.browserstack.com/wd/hub'
+
+    options = Options()
+    bstack_options = {
+        "os" : "Windows",
+        "osVersion" : "11",
+        'browserName': 'edge',
+        'sessionName': scenario_name,
+    }
+    options.set_capability('bstack:options', bstack_options)
+    context.driver = webdriver.Remote(command_executor=url, options=options)
+
 
     context.driver.maximize_window()
     context.driver.implicitly_wait(4)
