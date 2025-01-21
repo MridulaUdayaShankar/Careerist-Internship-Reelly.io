@@ -24,19 +24,19 @@ class MainMenu(BasePage):
         # self.wait = None
 
     def verify_login(self):
-        sleep(2)
+        sleep(1)
         self.click(*self.LANDING_PAGE)
 
 
     def click_secondary_menu(self):
         # self.click(*self.SECONDARY_MENU)
-        sleep(2)
+        sleep(1)
         # self.open('https://soft.reelly.io/secondary-listings')
         self.click(*self.SECONDARY_MENU)
 
 
     def verify_right_page_opens(self):
-        sleep(2)
+        sleep(1)
         self.click(*self.SECONDARY_PAGE )
 
 

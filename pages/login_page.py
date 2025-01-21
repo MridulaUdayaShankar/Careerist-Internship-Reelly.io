@@ -20,17 +20,17 @@ class LoginPage(BasePage):
         self.wait = None
 
     def enter_email(self):
-        sleep(2)
+        sleep(1)
         self.click(*self.ENTER_EMAIL)
         self.input_text('mridulaudayashankar01@gmail.com', *self.ENTER_EMAIL)
 
     def enter_password(self):
-        sleep(2)
+        sleep(1)
         self.click(*self.ENTER_PASSWORD)
         self.input_text('Apple@2025', *self.ENTER_PASSWORD)
 
     def click_continue(self):
-        sleep(2)
+        sleep(1)
         self.click(*self.CONTINUE_BTN)
         self.wait = WebDriverWait(driver, 25)
 

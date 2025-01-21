@@ -19,7 +19,7 @@ class SecondaryListingsPage(BasePage):
         self.wait = WebDriverWait(driver, 75)
 
     def verify_want_to_buy_filter(self):
-        sleep(2)
+        sleep(1)
         self.click(*self.VERIFY_WANT_TO_BUY_FILTER)
 
 
