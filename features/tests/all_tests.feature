@@ -16,6 +16,7 @@ Feature: # Enter feature name here
     When Click on Apply Filter
     Then Verify “want to buy” is seen on each card
 
-
+    Then Go to the final page using the pagination button
+    Then Go back to the first page using the pagination button
 
 

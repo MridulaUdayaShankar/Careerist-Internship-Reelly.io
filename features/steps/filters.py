@@ -30,3 +30,13 @@ def verify_want_to_buy_filter(context):
  #    When Click on Apply Filter
  #    Then Verify if filter is applied
  #    Then Verify “want to buy” is seen on each card
+
+
+@then('Go to the final page using the pagination button')
+def forward_pagination(context):
+    context.app.secondary_listings_page.forward_pagination()
+
+
+@then('Go back to the first page using the pagination button')
+def backward_pagination(context):
+    context.app.secondary_listings_page.backward_pagination()
