@@ -10,7 +10,7 @@ class Filters(BasePage):
 
 
     # Click on filter button
-    FILTER_BTN = (By.XPATH, '/html/body/div[2]/div[3]/div[2]/div/form/div[2]/div')
+    FILTER_BTN = (By.XPATH, "//div[@wized= 'openFiltersWindow' and @class='filter-button']")
     # check want to buy tag
     WANT_TO_BUY_FILTER = (By.XPATH, "//div[@class='tag-text-filters' and text()='Want to buy']")
     # Click on apply filter button
