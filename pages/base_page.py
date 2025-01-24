@@ -1,6 +1,6 @@
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-
+from support.logger import logger
 class BasePage:
 
 
@@ -9,7 +9,7 @@ class BasePage:
 
     def open(self, url):
         self.driver.get(url)
-
+        logger.info(f'Opening URL {url}')
     def get_url(self):
         return self.driver.current_url
 

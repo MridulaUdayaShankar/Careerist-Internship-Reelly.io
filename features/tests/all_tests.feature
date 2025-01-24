@@ -1,4 +1,5 @@
 # Created by mridulas_macair at 16/01/25
+@smoke
 Feature: # Enter feature name here
   # Enter feature description here
   Scenario: User should be able to login to Reelly.io,click on "Secondary" menu option and verify if the page opens,choose filter option "want to buy" and apply, verify if filter is applied

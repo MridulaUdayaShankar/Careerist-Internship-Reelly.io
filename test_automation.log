@@ -1,0 +1,150 @@
+2025-01-23 14:05:48,062 - support.logger - INFO - Started scenario: User should be able to login to Reelly.io,click on "Secondary" menu option and verify if the page opens,choose filter option "want to buy" and apply, verify if filter is applied
+2025-01-23 14:05:50,389 - support.logger - INFO - Started step: <given "Open reelly main page">
+2025-01-23 14:05:53,292 - support.logger - INFO - Opening URL https://soft.reelly.io/
+2025-01-23 14:05:53,293 - support.logger - INFO - Started step: <then "Enter email">
+2025-01-23 14:05:55,312 - support.logger - INFO - Started step: <then "Enter password">
+2025-01-23 14:05:56,400 - support.logger - INFO - Started step: <when "Click continue">
+2025-01-23 14:05:57,477 - support.logger - INFO - Started step: <then "Verify "Off-plan" tab is opened">
+2025-01-23 14:05:59,834 - support.logger - INFO - Started step: <when "Click on “Secondary” option at the left side menu">
+2025-01-23 14:06:02,870 - support.logger - INFO - Started step: <then "Verify the right page opens">
+2025-01-23 14:06:05,473 - support.logger - INFO - Started step: <given "Click on Filters">
+2025-01-23 14:06:08,303 - support.logger - INFO - Started step: <when "Filter the products by “want to buy”">
+2025-01-23 14:06:10,368 - support.logger - INFO - Started step: <when "Click on Apply Filter">
+2025-01-23 14:06:12,455 - support.logger - INFO - Started step: <then "Verify “want to buy” is seen on each card">
+2025-01-23 14:06:14,263 - support.logger - INFO - Started step: <then "Go to the final page using the pagination button">
+2025-01-23 14:06:16,344 - support.logger - INFO - Started step: <then "Go back to the first page using the pagination button">
+2025-01-23 14:15:01,774 - support.logger - INFO - Started scenario: User should be able to login to Reelly.io,click on "Secondary" menu option and verify if the page opens,choose filter option "want to buy" and apply, verify if filter is applied
+2025-01-23 14:15:04,058 - support.logger - INFO - Started step: <given "Open reelly main page">
+2025-01-23 14:15:06,753 - support.logger - INFO - Opening URL https://soft.reelly.io/
+2025-01-23 14:15:06,754 - support.logger - INFO - Started step: <then "Enter email">
+2025-01-23 14:15:08,678 - support.logger - INFO - Started step: <then "Enter password">
+2025-01-23 14:15:09,766 - support.logger - INFO - Started step: <when "Click continue">
+2025-01-23 14:15:10,840 - support.logger - INFO - Started step: <then "Verify "Off-plan" tab is opened">
+2025-01-23 14:15:13,112 - support.logger - INFO - Started step: <when "Click on “Secondary” option at the left side menu">
+2025-01-23 14:15:16,013 - support.logger - INFO - Started step: <then "Verify the right page opens">
+2025-01-23 14:15:19,661 - support.logger - INFO - Started step: <given "Click on Filters">
+2025-01-23 14:15:22,587 - support.logger - INFO - Started step: <when "Filter the products by “want to buy”">
+2025-01-23 14:15:24,654 - support.logger - INFO - Started step: <when "Click on Apply Filter">
+2025-01-23 14:15:26,742 - support.logger - INFO - Started step: <then "Verify “want to buy” is seen on each card">
+2025-01-23 14:15:28,687 - support.logger - INFO - Started step: <then "Go to the final page using the pagination button">
+2025-01-23 14:15:30,768 - support.logger - INFO - Started step: <then "Go back to the first page using the pagination button">
+2025-01-23 14:30:58,834 - support.logger - INFO - Started scenario: User should be able to login to Reelly.io,click on "Secondary" menu option and verify if the page opens,choose filter option "want to buy" and apply, verify if filter is applied
+2025-01-23 14:31:01,114 - support.logger - INFO - Started step: <given "Open reelly main page">
+2025-01-23 14:31:03,770 - support.logger - INFO - Opening URL https://soft.reelly.io/
+2025-01-23 14:31:03,770 - support.logger - INFO - Started step: <then "Enter email">
+2025-01-23 14:31:05,855 - support.logger - INFO - Started step: <then "Enter password">
+2025-01-23 14:31:06,944 - support.logger - INFO - Started step: <when "Click continue">
+2025-01-23 14:31:08,019 - support.logger - INFO - Started step: <then "Verify "Off-plan" tab is opened">
+2025-01-23 14:31:10,230 - support.logger - INFO - Started step: <when "Click on “Secondary” option at the left side menu">
+2025-01-23 14:31:13,153 - support.logger - INFO - Started step: <then "Verify the right page opens">
+2025-01-23 14:31:16,840 - support.logger - INFO - Started step: <given "Click on Filters">
+2025-01-23 14:31:19,740 - support.logger - INFO - Started step: <when "Filter the products by “want to buy”">
+2025-01-23 14:31:21,806 - support.logger - INFO - Started step: <when "Click on Apply Filter">
+2025-01-23 14:31:23,882 - support.logger - INFO - Started step: <then "Verify “want to buy” is seen on each card">
+2025-01-23 14:31:25,713 - support.logger - INFO - Started step: <then "Go to the final page using the pagination button">
+2025-01-23 14:31:27,795 - support.logger - INFO - Started step: <then "Go back to the first page using the pagination button">
+2025-01-23 14:40:05,634 - support.logger - INFO - Started scenario: User should be able to login to Reelly.io,click on "Secondary" menu option and verify if the page opens,choose filter option "want to buy" and apply, verify if filter is applied
+2025-01-23 14:40:07,845 - support.logger - INFO - Started step: <given "Open reelly main page">
+2025-01-23 14:40:10,705 - support.logger - INFO - Opening URL https://soft.reelly.io/
+2025-01-23 14:40:10,705 - support.logger - INFO - Started step: <then "Enter email">
+2025-01-23 14:40:12,710 - support.logger - INFO - Started step: <then "Enter password">
+2025-01-23 14:40:13,797 - support.logger - INFO - Started step: <when "Click continue">
+2025-01-23 14:40:14,864 - support.logger - INFO - Started step: <then "Verify "Off-plan" tab is opened">
+2025-01-23 14:40:17,227 - support.logger - INFO - Started step: <when "Click on “Secondary” option at the left side menu">
+2025-01-23 14:40:19,983 - support.logger - INFO - Started step: <then "Verify the right page opens">
+2025-01-23 14:40:22,449 - support.logger - INFO - Started step: <given "Click on Filters">
+2025-01-23 14:40:25,300 - support.logger - INFO - Started step: <when "Filter the products by “want to buy”">
+2025-01-23 14:40:27,362 - support.logger - INFO - Started step: <when "Click on Apply Filter">
+2025-01-23 14:40:29,451 - support.logger - INFO - Started step: <then "Verify “want to buy” is seen on each card">
+2025-01-23 14:40:31,343 - support.logger - INFO - Started step: <then "Go to the final page using the pagination button">
+2025-01-23 14:40:33,425 - support.logger - INFO - Started step: <then "Go back to the first page using the pagination button">
+2025-01-23 14:45:02,331 - support.logger - INFO - Started scenario: User should be able to login to Reelly.io,click on "Secondary" menu option and verify if the page opens,choose filter option "want to buy" and apply, verify if filter is applied
+2025-01-23 14:45:04,521 - support.logger - INFO - Started step: <given "Open reelly main page">
+2025-01-23 14:45:07,332 - support.logger - INFO - Opening URL https://soft.reelly.io/
+2025-01-23 14:45:07,332 - support.logger - INFO - Started step: <then "Enter email">
+2025-01-23 14:45:09,175 - support.logger - INFO - Started step: <then "Enter password">
+2025-01-23 14:45:10,263 - support.logger - INFO - Started step: <when "Click continue">
+2025-01-23 14:45:11,338 - support.logger - INFO - Started step: <then "Verify "Off-plan" tab is opened">
+2025-01-23 14:45:13,779 - support.logger - INFO - Started step: <when "Click on “Secondary” option at the left side menu">
+2025-01-23 14:45:16,675 - support.logger - INFO - Started step: <then "Verify the right page opens">
+2025-01-23 14:45:19,134 - support.logger - INFO - Started step: <given "Click on Filters">
+2025-01-23 14:45:21,182 - support.logger - INFO - Started step: <when "Filter the products by “want to buy”">
+2025-01-23 14:45:23,239 - support.logger - INFO - Started step: <when "Click on Apply Filter">
+2025-01-23 14:45:25,330 - support.logger - INFO - Started step: <then "Verify “want to buy” is seen on each card">
+2025-01-23 14:45:27,186 - support.logger - INFO - Started step: <then "Go to the final page using the pagination button">
+2025-01-23 14:45:29,269 - support.logger - INFO - Started step: <then "Go back to the first page using the pagination button">
+2025-01-23 14:50:56,584 - support.logger - INFO - Started scenario: User should be able to login to Reelly.io,click on "Secondary" menu option and verify if the page opens,choose filter option "want to buy" and apply, verify if filter is applied
+2025-01-23 14:50:58,928 - support.logger - INFO - Started step: <given "Open reelly main page">
+2025-01-23 14:51:02,395 - support.logger - INFO - Opening URL https://soft.reelly.io/
+2025-01-23 14:51:02,396 - support.logger - INFO - Started step: <then "Enter email">
+2025-01-23 14:51:04,716 - support.logger - INFO - Started step: <then "Enter password">
+2025-01-23 14:51:05,808 - support.logger - INFO - Started step: <when "Click continue">
+2025-01-23 14:51:06,885 - support.logger - INFO - Started step: <then "Verify "Off-plan" tab is opened">
+2025-01-23 14:51:09,014 - support.logger - INFO - Started step: <when "Click on “Secondary” option at the left side menu">
+2025-01-23 14:51:11,770 - support.logger - INFO - Started step: <then "Verify the right page opens">
+2025-01-23 14:51:15,433 - support.logger - INFO - Started step: <given "Click on Filters">
+2025-01-23 14:51:17,514 - support.logger - INFO - Started step: <when "Filter the products by “want to buy”">
+2025-01-23 14:51:19,556 - support.logger - INFO - Started step: <when "Click on Apply Filter">
+2025-01-23 14:51:21,642 - support.logger - INFO - Started step: <then "Verify “want to buy” is seen on each card">
+2025-01-23 14:51:23,563 - support.logger - INFO - Started step: <then "Go to the final page using the pagination button">
+2025-01-23 14:51:25,625 - support.logger - INFO - Started step: <then "Go back to the first page using the pagination button">
+2025-01-23 14:56:27,471 - support.logger - INFO - Started scenario: User should be able to login to Reelly.io,click on "Secondary" menu option and verify if the page opens,choose filter option "want to buy" and apply, verify if filter is applied
+2025-01-23 14:56:29,710 - support.logger - INFO - Started step: <given "Open reelly main page">
+2025-01-23 14:56:32,557 - support.logger - INFO - Opening URL https://soft.reelly.io/
+2025-01-23 14:56:32,557 - support.logger - INFO - Started step: <then "Enter email">
+2025-01-23 14:56:34,788 - support.logger - INFO - Started step: <then "Enter password">
+2025-01-23 14:56:35,878 - support.logger - INFO - Started step: <when "Click continue">
+2025-01-23 14:56:36,949 - support.logger - INFO - Started step: <then "Verify "Off-plan" tab is opened">
+2025-01-23 14:56:38,956 - support.logger - INFO - Started step: <when "Click on “Secondary” option at the left side menu">
+2025-01-23 14:56:40,718 - support.logger - INFO - Started step: <then "Verify the right page opens">
+2025-01-23 14:56:43,956 - support.logger - INFO - Started step: <given "Click on Filters">
+2025-01-23 14:56:46,815 - support.logger - INFO - Started step: <when "Filter the products by “want to buy”">
+2025-01-23 14:56:48,882 - support.logger - INFO - Started step: <when "Click on Apply Filter">
+2025-01-23 14:56:50,969 - support.logger - INFO - Started step: <then "Verify “want to buy” is seen on each card">
+2025-01-23 14:56:52,798 - support.logger - INFO - Started step: <then "Go to the final page using the pagination button">
+2025-01-23 14:56:54,882 - support.logger - INFO - Started step: <then "Go back to the first page using the pagination button">
+2025-01-23 14:57:38,940 - support.logger - INFO - Started scenario: User should be able to login to Reelly.io,click on "Secondary" menu option and verify if the page opens,choose filter option "want to buy" and apply, verify if filter is applied
+2025-01-23 14:57:41,849 - support.logger - INFO - Started step: <given "Open reelly main page">
+2025-01-23 14:57:42,489 - support.logger - INFO - Opening URL https://soft.reelly.io/
+2025-01-23 14:57:42,490 - support.logger - INFO - Started step: <then "Enter email">
+2025-01-23 14:57:45,936 - support.logger - INFO - Started step: <then "Enter password">
+2025-01-23 14:57:47,022 - support.logger - INFO - Started step: <when "Click continue">
+2025-01-23 14:57:48,098 - support.logger - INFO - Started step: <then "Verify "Off-plan" tab is opened">
+2025-01-23 14:57:50,107 - support.logger - INFO - Started step: <when "Click on “Secondary” option at the left side menu">
+2025-01-23 14:57:53,036 - support.logger - INFO - Started step: <then "Verify the right page opens">
+2025-01-23 14:57:56,738 - support.logger - INFO - Started step: <given "Click on Filters">
+2025-01-23 14:57:59,597 - support.logger - INFO - Started step: <when "Filter the products by “want to buy”">
+2025-01-23 14:58:01,663 - support.logger - INFO - Started step: <when "Click on Apply Filter">
+2025-01-23 14:58:03,857 - support.logger - INFO - Started step: <then "Verify “want to buy” is seen on each card">
+2025-01-23 14:58:05,697 - support.logger - INFO - Started step: <then "Go to the final page using the pagination button">
+2025-01-23 14:58:07,781 - support.logger - INFO - Started step: <then "Go back to the first page using the pagination button">
+2025-01-23 14:59:28,758 - support.logger - INFO - Started scenario: User should be able to login to Reelly.io,click on "Secondary" menu option and verify if the page opens,choose filter option "want to buy" and apply, verify if filter is applied
+2025-01-23 14:59:31,070 - support.logger - INFO - Started step: <given "Open reelly main page">
+2025-01-23 14:59:34,151 - support.logger - INFO - Opening URL https://soft.reelly.io/
+2025-01-23 14:59:34,151 - support.logger - INFO - Started step: <then "Enter email">
+2025-01-23 14:59:35,859 - support.logger - INFO - Started step: <then "Enter password">
+2025-01-23 14:59:36,920 - support.logger - INFO - Started step: <when "Click continue">
+2025-01-23 14:59:37,995 - support.logger - INFO - Started step: <then "Verify "Off-plan" tab is opened">
+2025-01-23 14:59:40,268 - support.logger - INFO - Started step: <when "Click on “Secondary” option at the left side menu">
+2025-01-23 14:59:41,864 - support.logger - INFO - Started step: <then "Verify the right page opens">
+2025-01-23 14:59:45,202 - support.logger - INFO - Started step: <given "Click on Filters">
+2025-01-23 14:59:47,273 - support.logger - INFO - Started step: <when "Filter the products by “want to buy”">
+2025-01-23 14:59:49,340 - support.logger - INFO - Started step: <when "Click on Apply Filter">
+2025-01-23 14:59:51,408 - support.logger - INFO - Started step: <then "Verify “want to buy” is seen on each card">
+2025-01-23 14:59:53,348 - support.logger - INFO - Started step: <then "Go to the final page using the pagination button">
+2025-01-23 14:59:55,428 - support.logger - INFO - Started step: <then "Go back to the first page using the pagination button">
+2025-01-23 16:09:05,193 - support.logger - INFO - Started scenario: User should be able to login to Reelly.io,click on "Secondary" menu option and verify if the page opens,choose filter option "want to buy" and apply, verify if filter is applied
+2025-01-23 16:09:07,517 - support.logger - INFO - Started step: <given "Open reelly main page">
+2025-01-23 16:09:10,452 - support.logger - INFO - Opening URL https://soft.reelly.io/
+2025-01-23 16:09:10,452 - support.logger - INFO - Started step: <then "Enter email">
+2025-01-23 16:09:12,901 - support.logger - INFO - Started step: <then "Enter password">
+2025-01-23 16:09:13,978 - support.logger - INFO - Started step: <when "Click continue">
+2025-01-23 16:09:15,036 - support.logger - INFO - Started step: <then "Verify "Off-plan" tab is opened">
+2025-01-23 16:09:17,327 - support.logger - INFO - Started step: <when "Click on “Secondary” option at the left side menu">
+2025-01-23 16:09:19,052 - support.logger - INFO - Started step: <then "Verify the right page opens">
+2025-01-23 16:09:22,336 - support.logger - INFO - Started step: <given "Click on Filters">
+2025-01-23 16:09:25,221 - support.logger - INFO - Started step: <when "Filter the products by “want to buy”">
+2025-01-23 16:09:27,282 - support.logger - INFO - Started step: <when "Click on Apply Filter">
+2025-01-23 16:09:29,358 - support.logger - INFO - Started step: <then "Verify “want to buy” is seen on each card">
+2025-01-23 16:09:31,311 - support.logger - INFO - Started step: <then "Go to the final page using the pagination button">
+2025-01-23 16:09:33,368 - support.logger - INFO - Started step: <then "Go back to the first page using the pagination button">
