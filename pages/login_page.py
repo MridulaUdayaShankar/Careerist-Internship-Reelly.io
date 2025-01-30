@@ -9,8 +9,6 @@ from pages.base_page import BasePage
 
 class LoginPage(BasePage):
 
-
-    # LOGIN_TXT = (By.XPATH, "//h1[text()='Sign in or create new account']")
     ENTER_EMAIL = (By.XPATH, "//input[@wized= 'emailInput' and @id='email-2']")
     ENTER_PASSWORD = (By.XPATH, "//input[@wized= 'passwordInput' and @id='field']")
     CONTINUE_BTN = (By.XPATH, "//a[@wized= 'loginButton' and @class='login-button w-button']")

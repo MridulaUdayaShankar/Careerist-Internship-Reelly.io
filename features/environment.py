@@ -58,6 +58,18 @@ def browser_init(context, scenario_name):
     # context.driver = webdriver.Remote(command_executor=url, options=options)
 
 
+    # Mobile testing
+    mobile_emulation = {
+        "deviceMetrics": {"width": 360, "height": 640, "pixelRatio": 3.0},
+        "userAgent": "Mozilla/5.0 (Linux; Android 4.2.1; en-us; Nexus 5 Build/JOP40D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19",
+        "clientHints": {"platform": "Android", "mobile": True}}
+    # mobile_emulation = {"deviceName": "Nexus 5"}
+    chrome_options = Options()
+    # chrome_options = webdriver.ChromeOptions()
+    chrome_options.add_experimental_option("mobileEmulation", mobile_emulation)
+    context.driver = webdriver.Chrome(options=chrome_options)
+
+
     context.driver.maximize_window()
     context.driver.implicitly_wait(4)
     context.driver.wait = WebDriverWait(context.driver, 15)

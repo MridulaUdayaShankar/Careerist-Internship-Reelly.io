@@ -14,7 +14,6 @@ class SecondaryListingsPage(BasePage):
     VERIFY_WANT_TO_BUY_FILTER = (
     By.XPATH, "//div[@wized='saleTagMLS' and @style='color: rgb(255, 61, 0);' and @w-el-text='For sale' and @w-el-style-color='rgb(120, 162, 0)' and text()='Want to buy']"
 )
-
     TOTAL_PAGES = (By.XPATH, "//div[text()= '5']")
     FIRST_PAGE= (By.XPATH, "//div[@wized= 'currentPageProperties' and @class='page-count']")
     LAST_PAGE= (By.XPATH, "//div[@wized= 'totalPageProperties' and @class='page-count']")
@@ -36,6 +35,9 @@ class SecondaryListingsPage(BasePage):
         total_pages = int(self.driver.find_element(*self.TOTAL_PAGES).text)
         print(f"Total pages: {total_pages}")
 
+
+        # page Scroll
+        self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         current_page = self.click(*self.TOTAL_PAGES)
         print("Successfully reached last page")
 
@@ -44,6 +46,9 @@ class SecondaryListingsPage(BasePage):
         total_pages = int(self.driver.find_element(*self.TOTAL_PAGES).text)
         print(f"Total pages: {total_pages}")
 
+
+        # page Scroll
+        self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         for page in range(1, total_pages):
             wait = WebDriverWait(self.driver, 15)
             first_page_arrow_button = wait.until(EC.visibility_of_element_located(self.FIRST_ARROW_BUTTON))

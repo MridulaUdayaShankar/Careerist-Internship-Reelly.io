@@ -10,8 +10,17 @@ def click_secondary_menu(context):
     context.app.main_menu.click_secondary_menu()
 
 
+@when('Click on “Secondary” option at the left side menu for mobile')
+def click_secondary_menu_mobile(context):
+    context.app.main_menu.click_secondary_menu_mobile()
+
 @then ('Verify the right page opens')
 def verify_right_page_opens(context):
     context.app.main_menu.verify_right_page_opens()
+
+
+@then ('Verify the right page opens for mobile view')
+def verify_right_page_opens_mobile(context):
+    context.app.main_menu.verify_right_page_opens_mobile()
 
 
