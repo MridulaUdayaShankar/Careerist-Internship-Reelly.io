@@ -10,8 +10,6 @@ Feature: Mobile testing
 
     Then Verify "Off-plan" tab is opened
     When Click on “Secondary” option at the left side menu for mobile
-#    Then Verify the right page opens
-#    Then Verify the right page opens for mobile view
 
     Given Click on Filters
     When Filter the products by “want to buy”
