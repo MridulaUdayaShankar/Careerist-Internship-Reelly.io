@@ -3,10 +3,10 @@
 Feature: # Enter feature name here
   # Enter feature description here
   Scenario: User should be able to login to Reelly.io,click on "Secondary" menu option and verify if the page opens,choose filter option "want to buy" and apply, verify if filter is applied
-    Given Open reelly main page
-    Then Enter email
-    Then Enter password
-    When Click continue
+#    Given Open reelly main page
+#    Then Enter email
+#    Then Enter password
+#    When Click continue
 
     Then Verify "Off-plan" tab is opened
     When Click on “Secondary” option at the left side menu

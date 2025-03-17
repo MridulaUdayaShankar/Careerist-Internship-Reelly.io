@@ -92,6 +92,5 @@ def switch_to_window_by_id(self, window_id):
     self.driver.switch_to.window(window_id)
     print('Current window ', self.driver.current_window_handle)
 
-
 def close(self):
     self.driver.close()

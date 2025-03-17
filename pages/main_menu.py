@@ -9,7 +9,7 @@ from pages.base_page import BasePage
 class MainMenu(BasePage):
 
 
-    LANDING_PAGE = (By.XPATH, '/html/body/div[7]/div[1]/a[1]')
+    # LANDING_PAGE = (By.XPATH, '/html/body/div[7]/div[1]/a[1]')
     SECONDARY_MENU = [By.XPATH, '//*[@id="w-node-_99a5c496-8f77-9959-16dd-e8eb9b22b697-9b22b68b"]']
     SECONDARY_MENU_MOBILE = (By.CSS_SELECTOR,"[href='/secondary-listings']")
     # add right page verification
@@ -25,9 +25,9 @@ class MainMenu(BasePage):
         super().__init__(driver)
         # self.wait = None
 
-    def verify_login(self):
-        sleep(1)
-        self.click(*self.LANDING_PAGE)
+    # def verify_login(self):
+    #     sleep(1)
+    #     self.click(*self.LANDING_PAGE)
 
 
     def click_secondary_menu(self):

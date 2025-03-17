@@ -4,6 +4,8 @@ from pages.filters import Filters
 from pages.login_page import LoginPage
 from pages.main_menu import MainMenu
 from pages.main_page import MainPage
+from pages.settings_page import SettingsPage
+
 
 class Application:
 
@@ -16,4 +18,6 @@ class Application:
         self.main_menu = MainMenu(driver)
         self.login_page = LoginPage(driver)
         self.secondary_listings_page = SecondaryListingsPage(driver)
+        self.settings_page = SettingsPage(driver)
+
 

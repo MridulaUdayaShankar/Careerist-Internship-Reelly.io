@@ -8,7 +8,7 @@ from pages.base_page import BasePage
 
 
 class LoginPage(BasePage):
-
+    LANDING_PAGE = (By.XPATH, '/html/body/div[7]/div[1]/a[1]')
     ENTER_EMAIL = (By.XPATH, "//input[@wized= 'emailInput' and @id='email-2']")
     ENTER_PASSWORD = (By.XPATH, "//input[@wized= 'passwordInput' and @id='field']")
     CONTINUE_BTN = (By.XPATH, "//a[@wized= 'loginButton' and @class='login-button w-button']")
@@ -31,6 +31,10 @@ class LoginPage(BasePage):
         sleep(1)
         self.click(*self.CONTINUE_BTN)
         self.wait = WebDriverWait(driver, 25)
+
+    def verify_login(self):
+        sleep(1)
+        self.click(*self.LANDING_PAGE)
 
 
 

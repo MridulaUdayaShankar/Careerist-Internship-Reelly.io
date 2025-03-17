@@ -20,5 +20,9 @@ def enter_password(context):
 def click_continue(context):
     context.app.login_page.click_continue()
 
+@then('Verify "Off-plan" tab is opened')
+def verify_login(context):
+    context.app.login_page.verify_login()
+
 
 
