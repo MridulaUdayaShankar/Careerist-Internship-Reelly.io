@@ -841,3 +841,60 @@
 2025-04-01 22:39:09,148 - support.logger - INFO - Started step: <then "Verify market page opens">
 2025-04-01 22:39:09,726 - support.logger - INFO - Started step: <when "Click on Add Company button">
 2025-04-01 22:39:11,099 - support.logger - INFO - Started step: <then "Verify Publish my company button is available">
+2025-04-01 22:57:07,478 - support.logger - INFO - Started scenario: User can open market tab and add company option
+2025-04-01 22:57:22,409 - support.logger - INFO - Started step: <given "Open reelly main page">
+2025-04-01 22:57:23,238 - support.logger - INFO - Opening URL https://soft.reelly.io/
+2025-04-01 22:57:23,239 - support.logger - INFO - Started step: <then "Enter email">
+2025-04-01 22:57:28,285 - support.logger - INFO - Started step: <then "Enter password">
+2025-04-01 22:57:30,026 - support.logger - INFO - Started step: <when "Click continue">
+2025-04-01 22:57:31,722 - support.logger - INFO - Started step: <when "Click on Market button">
+2025-04-01 22:57:34,760 - support.logger - INFO - Started step: <then "Verify market page opens">
+2025-04-01 22:57:35,756 - support.logger - INFO - Started step: <when "Click on Add Company button">
+2025-04-01 22:57:42,109 - support.logger - INFO - Started step: <then "Verify Publish my company button is available">
+2025-04-01 22:57:43,638 - support.logger - INFO - Started step: <then "Click on Send my cv">
+2025-04-01 22:57:47,780 - support.logger - ERROR - Step failed: <then "Click on Send my cv">
+2025-04-01 22:58:48,540 - support.logger - INFO - Started scenario: User can open market tab and add company option
+2025-04-01 22:59:04,413 - support.logger - INFO - Started step: <given "Open reelly main page">
+2025-04-01 22:59:04,981 - support.logger - INFO - Opening URL https://soft.reelly.io/
+2025-04-01 22:59:04,982 - support.logger - INFO - Started step: <then "Enter email">
+2025-04-01 22:59:10,441 - support.logger - INFO - Started step: <then "Enter password">
+2025-04-01 22:59:12,362 - support.logger - INFO - Started step: <when "Click continue">
+2025-04-01 22:59:13,831 - support.logger - INFO - Started step: <when "Click on Market button">
+2025-04-01 22:59:17,613 - support.logger - INFO - Started step: <then "Verify market page opens">
+2025-04-01 22:59:18,397 - support.logger - INFO - Started step: <when "Click on Add Company button">
+2025-04-01 22:59:25,028 - support.logger - INFO - Started step: <then "Verify Publish my company button is available">
+2025-04-01 22:59:31,296 - support.logger - ERROR - Step failed: <then "Verify Publish my company button is available">
+2025-04-01 23:01:24,865 - support.logger - INFO - Started scenario: User can open market tab and add company option
+2025-04-01 23:01:42,861 - support.logger - INFO - Started step: <given "Open reelly main page">
+2025-04-01 23:01:45,910 - support.logger - INFO - Opening URL https://soft.reelly.io/
+2025-04-01 23:01:45,911 - support.logger - INFO - Started step: <then "Enter email">
+2025-04-01 23:01:48,850 - support.logger - INFO - Started step: <then "Enter password">
+2025-04-01 23:01:51,043 - support.logger - INFO - Started step: <when "Click continue">
+2025-04-01 23:01:52,788 - support.logger - INFO - Started step: <when "Click on Market button">
+2025-04-01 23:02:05,968 - support.logger - INFO - Started step: <then "Verify market page opens">
+2025-04-01 23:02:06,819 - support.logger - INFO - Started step: <when "Click on Add Company button">
+2025-04-01 23:02:17,743 - support.logger - INFO - Started step: <then "Click on Send my cv">
+2025-04-01 23:07:56,342 - support.logger - INFO - Started scenario: User can open market tab and add company option
+2025-04-01 23:08:10,445 - support.logger - INFO - Started step: <given "Open reelly main page">
+2025-04-01 23:08:13,220 - support.logger - INFO - Opening URL https://soft.reelly.io/
+2025-04-01 23:08:13,221 - support.logger - INFO - Started step: <then "Enter email">
+2025-04-01 23:08:15,927 - support.logger - INFO - Started step: <then "Enter password">
+2025-04-01 23:08:17,650 - support.logger - INFO - Started step: <when "Click continue">
+2025-04-01 23:08:19,144 - support.logger - INFO - Started step: <when "Click on Market button">
+2025-04-01 23:08:22,434 - support.logger - INFO - Started step: <then "Verify market page opens">
+2025-04-01 23:08:23,201 - support.logger - INFO - Started step: <when "Click on Add Company button">
+2025-04-01 23:08:29,659 - support.logger - INFO - Started step: <then "Click on View page template">
+2025-04-01 23:08:29,663 - support.logger - ERROR - Step failed: <then "Click on View page template">
+2025-04-01 23:09:34,260 - support.logger - INFO - Started scenario: User can open market tab and add company option
+2025-04-01 23:09:51,329 - support.logger - INFO - Started step: <given "Open reelly main page">
+2025-04-01 23:09:57,724 - support.logger - INFO - Opening URL https://soft.reelly.io/
+2025-04-01 23:09:57,725 - support.logger - INFO - Started step: <then "Enter email">
+2025-04-01 23:09:59,881 - support.logger - INFO - Started step: <then "Enter password">
+2025-04-01 23:10:02,037 - support.logger - INFO - Started step: <when "Click continue">
+2025-04-01 23:10:03,544 - support.logger - INFO - Started step: <when "Click on Market button">
+2025-04-01 23:10:11,862 - support.logger - INFO - Started step: <then "Verify market page opens">
+2025-04-01 23:10:12,813 - support.logger - INFO - Started step: <when "Click on Add Company button">
+2025-04-01 23:10:20,443 - support.logger - INFO - Started step: <then "Click on View page template">
+2025-04-01 23:10:20,450 - support.logger - ERROR - Step failed: <then "Click on View page template">
+2025-04-01 23:11:36,896 - support.logger - INFO - Started scenario: User can open market tab and add company option
+2025-04-01 23:11:52,916 - support.logger - INFO - Started step: <given "Open reelly main page">

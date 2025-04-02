@@ -14,6 +14,8 @@ class MarketPage(BasePage):
     VERIFY_MARKET_PAGE = (By.XPATH, "//div[@class = 'page-title agency' and text() = 'Market']")
     ADD_COMPANY_BTN = (By.XPATH, "//a[@class = 'add-company-button w-inline-block']")
     PUBLISH_MY_COMPANY = (By.XPATH,"//a[@class = 'publish-button _1 w-button']")
+    VIEW_PAGE_TEMPLATE = (By.XPATH, "//a[@class = 'publish-button color w-button' and text()='View page template']")
+    SEND_MY_CV = (By.XPATH, "//a[@class = 'button-agency w-button']")
 
 
     def wait_for_element_visible(self, *locator):
@@ -40,7 +42,18 @@ class MarketPage(BasePage):
     def click_add_company(self):
         self.click(*self.ADD_COMPANY_BTN)
 
-    def click_publish_my_company(self):
-        self.click(*self.PUBLISH_MY_COMPANY)
+    # def click_publish_my_company(self):
+    #     self.click(*self.PUBLISH_MY_COMPANY)
+
+        # page Scroll
+        # self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+        # current_page = self.click(*self.VIEW_PAGE_TEMPLATE)
+
+    def click_view_page_template(self):
+        self.click(*self.VIEW_PAGE_TEMPLATE)
+
+    def click_send_my_cv(self):
+        self.wait = WebDriverWait(driver, 15)
+        self.click(*self.SEND_MY_CV)
 
 

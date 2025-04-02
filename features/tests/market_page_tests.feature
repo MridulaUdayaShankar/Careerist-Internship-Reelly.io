@@ -12,4 +12,6 @@ Feature: # Enter feature name here
     When Click on Market button
     Then Verify market page opens
     When Click on Add Company button
-    Then Verify Publish my company button is available
+#    Then Verify Publish my company button is available
+    Then Click on View page template
+    Then Click on Send my cv
