@@ -1,4 +1,3 @@
-from selenium.webdriver.support import expected_conditions as EC
 from time import sleep
 
 from selenium.webdriver.common.by import By
@@ -14,6 +13,7 @@ class SettingsPage(BasePage):
     VERIFICATION_BTN = (By.XPATH,"//div[@class='setting-text' and text()='Verification']")
     VERIFY_PROFILE_IMAGE = (By.XPATH,"//img[@class = 'verify-profile-image']")
     VERIFY_UPLOAD_IMG = (By.XPATH,"//label[@class = 'upload-button-2']")
+    CLOSE_POP_UP = (By.XPATH,"//button[@class='close-pop-up']")
     VERIFY_NXT_STEP = (By.XPATH,"//div[@class = 'next-step--']")
 
     def click(self, *locator):
@@ -23,7 +23,6 @@ class SettingsPage(BasePage):
         super().__init__(driver)
 
     def click_settings(self):
-        sleep(1)
         self.click(*self.SETTINGS_BTN)
 
     def click_verification_option(self):
@@ -33,7 +32,11 @@ class SettingsPage(BasePage):
         self.click(*self.VERIFY_PROFILE_IMAGE)
 
     def verify_upload_image_button_is_available(self):
+        sleep(1)
         self.click(*self.VERIFY_UPLOAD_IMG)
+
+    def click_close_pop_up(self):
+        self.click(*self.CLOSE_POP_UP)
 
     def verify_next_step_button_is_available(self):
         self.click(*self.VERIFY_NXT_STEP)

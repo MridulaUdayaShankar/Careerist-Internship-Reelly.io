@@ -1,4 +1,5 @@
 from pages.base_page import BasePage
+from pages.market_page import MarketPage
 from pages.secondary_listings_page import SecondaryListingsPage
 from pages.filters import Filters
 from pages.login_page import LoginPage
@@ -19,5 +20,6 @@ class Application:
         self.login_page = LoginPage(driver)
         self.secondary_listings_page = SecondaryListingsPage(driver)
         self.settings_page = SettingsPage(driver)
+        self.market_page = MarketPage(driver)
 
 
