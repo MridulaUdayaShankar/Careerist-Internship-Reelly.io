@@ -898,3 +898,12 @@
 2025-04-01 23:10:20,450 - support.logger - ERROR - Step failed: <then "Click on View page template">
 2025-04-01 23:11:36,896 - support.logger - INFO - Started scenario: User can open market tab and add company option
 2025-04-01 23:11:52,916 - support.logger - INFO - Started step: <given "Open reelly main page">
+2025-04-01 23:11:57,299 - support.logger - INFO - Opening URL https://soft.reelly.io/
+2025-04-01 23:11:57,300 - support.logger - INFO - Started step: <then "Enter email">
+2025-04-01 23:11:59,873 - support.logger - INFO - Started step: <then "Enter password">
+2025-04-01 23:12:01,732 - support.logger - INFO - Started step: <when "Click continue">
+2025-04-01 23:12:03,190 - support.logger - INFO - Started step: <when "Click on Market button">
+2025-04-01 23:12:11,749 - support.logger - INFO - Started step: <then "Verify market page opens">
+2025-04-01 23:12:12,696 - support.logger - INFO - Started step: <when "Click on Add Company button">
+2025-04-01 23:12:20,076 - support.logger - INFO - Started step: <then "Click on View page template">
+2025-04-01 23:12:22,916 - support.logger - INFO - Started step: <then "Click on Send my cv">
