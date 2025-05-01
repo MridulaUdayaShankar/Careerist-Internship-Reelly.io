@@ -907,3 +907,30 @@
 2025-04-01 23:12:12,696 - support.logger - INFO - Started step: <when "Click on Add Company button">
 2025-04-01 23:12:20,076 - support.logger - INFO - Started step: <then "Click on View page template">
 2025-04-01 23:12:22,916 - support.logger - INFO - Started step: <then "Click on Send my cv">
+2025-05-01 12:57:28,238 - support.logger - INFO - Started scenario: User can click on offplan and select sale status
+2025-05-01 12:57:50,613 - support.logger - INFO - Started step: <given "click on Off-plan at the left side menu">
+2025-05-01 12:57:50,618 - support.logger - ERROR - Step failed: <given "click on Off-plan at the left side menu">
+2025-05-01 12:58:26,042 - support.logger - INFO - Started scenario: User can click on offplan and select sale status
+2025-05-01 12:58:42,804 - support.logger - INFO - Started step: <given "click on Off-plan at the left side menu">
+2025-05-01 12:58:48,066 - support.logger - ERROR - Step failed: <given "click on Off-plan at the left side menu">
+2025-05-01 12:59:41,635 - support.logger - INFO - Started scenario: User can click on offplan and select sale status
+2025-05-01 12:59:57,219 - support.logger - INFO - Started step: <given "click on Off-plan at the left side menu">
+2025-05-01 12:59:57,223 - support.logger - ERROR - Step failed: <given "click on Off-plan at the left side menu">
+2025-05-01 13:04:20,084 - support.logger - INFO - Started scenario: User can click on offplan and select sale status
+2025-05-01 13:04:35,480 - support.logger - INFO - Started step: <given "click on Off-plan at the left side menu">
+2025-05-01 13:04:39,554 - support.logger - ERROR - Step failed: <given "click on Off-plan at the left side menu">
+2025-05-01 13:06:42,413 - support.logger - INFO - Started scenario: User can click on offplan and select sale status
+2025-05-01 13:07:00,597 - support.logger - INFO - Started step: <given "click on Off-plan at the left side menu">
+2025-05-01 13:07:04,746 - support.logger - ERROR - Step failed: <given "click on Off-plan at the left side menu">
+2025-05-01 13:10:41,768 - support.logger - INFO - Started scenario: User can click on offplan and select sale status
+2025-05-01 13:11:00,268 - support.logger - INFO - Started step: <given "click on Off-plan at the left side menu">
+2025-05-01 13:11:04,340 - support.logger - ERROR - Step failed: <given "click on Off-plan at the left side menu">
+2025-05-01 13:11:43,471 - support.logger - INFO - Started scenario: User can click on offplan and select sale status
+2025-05-01 13:11:59,741 - support.logger - INFO - Started step: <given "click on Off-plan at the left side menu">
+2025-05-01 13:12:03,910 - support.logger - ERROR - Step failed: <given "click on Off-plan at the left side menu">
+2025-05-01 13:12:54,821 - support.logger - INFO - Started scenario: User can click on offplan and select sale status
+2025-05-01 13:13:10,647 - support.logger - INFO - Started step: <given "click on Off-plan at the left side menu">
+2025-05-01 13:13:14,769 - support.logger - ERROR - Step failed: <given "click on Off-plan at the left side menu">
+2025-05-01 13:14:25,601 - support.logger - INFO - Started scenario: User can click on offplan and select sale status
+2025-05-01 13:14:44,807 - support.logger - INFO - Started step: <given "click on Off-plan at the left side menu">
+2025-05-01 13:14:49,966 - support.logger - ERROR - Step failed: <given "click on Off-plan at the left side menu">

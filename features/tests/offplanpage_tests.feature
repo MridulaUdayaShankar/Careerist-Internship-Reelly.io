@@ -4,7 +4,8 @@ Feature: # Enter feature name here
 
   Scenario: User can click on offplan and select sale status
 
-    Given Click on Off-plan at the left side menu
-    Then Verify the right page opens
-    When Filter by sale status of Announced
-    Then Verify each product contains the filter Announced
+    Given click on Off-plan at the left side menu
+    Then verify the right page opens
+    When click on filter by sale status
+    When click on announced filter
+    Then verify each product contains the filter Announced
